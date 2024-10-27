@@ -1,0 +1,36 @@
+html, body {
+    background: #E2ECF2;
+}
+.grid-cell {
+    background: rgba(255, 255, 255, 0.9);
+}
+.score-container, .best-container {
+    background: #DA634D;
+}
+.score-container:after, .best-container:after {
+    color: #FFF;
+}
+.title img {
+    width: 100%;
+}
+
+.tile .tile-inner { background-repeat: no-repeat; background-position: center; background-size: cover !important; color: #FFF !important;
+    -webkit-text-stroke: 1px #000;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;   }
+
+.tile.tile-2     .tile-inner { background-image: url('../images/x2.png'); }
+.tile.tile-4     .tile-inner { background-image: url('../images/x4.png'); }
+.tile.tile-8     .tile-inner { background-image: url('../images/x8.png'); }
+.tile.tile-16    .tile-inner { background-image: url('../images/x16.png'); }
+.tile.tile-32    .tile-inner { background-image: url('../images/x32.png'); }
+.tile.tile-64    .tile-inner { background-image: url('../images/x64.png'); }
+.tile.tile-128   .tile-inner { background-image: url('../images/x128.png'); }
+.tile.tile-256   .tile-inner { background-image: url('../images/x256.png'); }
+.tile.tile-512   .tile-inner { background-image: url('../images/x512.png'); }
+.tile.tile-1024  .tile-inner { background-image: url('../images/x1024.png'); }
+.tile.tile-2048  .tile-inner { background-image: url('../images/x2048.png'); }
+.tile.tile-super .tile-inner { background-image: url('../images/xsuper.png'); }
